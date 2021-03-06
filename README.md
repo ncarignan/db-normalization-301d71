@@ -1,3 +1,21 @@
+## Database migration exercise
+
+The goal of this exercise is to start out with one database, normalize it and end up with 2 tables, where the second table has a row being the foreign key - linked to the first.
+
+## 03/06/2021
+
+### Number and name of feature: db normalization
+
+Estimate of time needed to complete: 30 min
+
+Start time: 8:30AM
+
+Finish time: 9:00AM
+
+Actual time needed to complete: 30min
+
+#### notes from lecture with Nicholas Carignan
+
 -- Creating a copy of the database so that we don't break the production db
 CREATE DATABASE lab14_normal WITH TEMPLATE lab14;
 
